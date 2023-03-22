@@ -9,9 +9,8 @@ public class P1152 {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-		
-		String str = br.readLine();
-		StringTokenizer st = new StringTokenizer(str);
+	
+		StringTokenizer st = new StringTokenizer(br.readLine());
 		
 		int n = st.countTokens();
 		

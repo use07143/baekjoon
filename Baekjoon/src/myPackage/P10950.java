@@ -28,7 +28,6 @@ public class P10950 {
 		}
 		
 		keyboard.close();
-		
 	}
 
 }

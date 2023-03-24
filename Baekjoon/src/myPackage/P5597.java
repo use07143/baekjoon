@@ -17,8 +17,7 @@ public class P5597 {
 		for(int i = 0; i < 28; i++) {
 			arr[i] = Integer.parseInt(br.readLine());
 		}
-		
-		//Arrays.sort(arr);
+
 		
 		for(int i = 1; i <= 30; i++) {
 			boolean tf = Arrays.stream(arr)

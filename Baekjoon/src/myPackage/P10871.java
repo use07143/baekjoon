@@ -27,5 +27,4 @@ public class P10871 {
 		bw.flush();
 		bw.close();
 	}
-
 }

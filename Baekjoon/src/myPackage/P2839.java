@@ -13,7 +13,7 @@ public class P2839 {
 		int min = Integer.MAX_VALUE;
 		
 		for(int x = 0; x <= 1000; x++) {
-			for(int y = 0; y < 1700; y++) {
+			for(int y = 0; y < 1666; y++) {
 				int sum = x * 5 + y * 3;
 				if(sum == n) {
 					if(min > (x+y)) min = (x+y);

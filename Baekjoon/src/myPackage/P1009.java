@@ -20,8 +20,8 @@ public class P1009 {
 			for(int j = 0; j < b; j++) {
 				k = (k * a) % 10;
 			}
-			if(k == 0) k = 10;
 			
+			if(k == 0) k = 10;
 			bw.write(k + "\n");
 		}
 		

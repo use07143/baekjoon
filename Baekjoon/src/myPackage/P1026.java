@@ -3,7 +3,6 @@ package myPackage;
 import java.io.*;
 import java.util.StringTokenizer;
 import java.util.Arrays;
-import java.util.Collections;
 
 public class P1026 {
 

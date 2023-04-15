@@ -14,6 +14,7 @@ public class P1010 {
 		
 		int T = Integer.parseInt(br.readLine());
 		StringTokenizer st;
+		
 		int N, M;
 		
 		for(int i = 0; i < T; i++) {

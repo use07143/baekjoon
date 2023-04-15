@@ -22,7 +22,6 @@ public class P1009 {
 			}
 			
 			if(k == 0) k = 10;
-			
 			bw.write(k + "\n");
 		}
 		

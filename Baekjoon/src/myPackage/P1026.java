@@ -13,6 +13,7 @@ public class P1026 {
 		StringTokenizer st;
 		
 		int N = Integer.parseInt(br.readLine());
+		
 		int[] A = new int[N];
 		int[] B = new int[N];
 		int sum = 0;

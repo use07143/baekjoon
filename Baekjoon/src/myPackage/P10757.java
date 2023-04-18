@@ -14,6 +14,7 @@ public class P10757 {
 		StringTokenizer st;
 		
 		st = new StringTokenizer(br.readLine());
+		
 		BigInteger a = new BigInteger(st.nextToken());
 		BigInteger b = new BigInteger(st.nextToken());
 		

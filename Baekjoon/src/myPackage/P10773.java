@@ -15,6 +15,7 @@ public class P10773 {
 		
 		for(int i = 0; i < N; i++) {
 			num = Integer.parseInt(br.readLine());
+			
 			if(num == 0) {
 				arr[top] = 0;
 				top--;

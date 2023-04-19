@@ -14,9 +14,7 @@ public class P10808 {
 		
 		for(int i = 0; i < str.length(); i++) {
 			for(int j = 0; j < 26; j++) {
-				if(str.charAt(i) == (j+97)) {
-					arr[j]++;
-				}
+				if(str.charAt(i) == (j+97)) arr[j]++;
 			}
 		}
 		

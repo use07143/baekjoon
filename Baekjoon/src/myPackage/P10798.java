@@ -13,10 +13,8 @@ public class P10798 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		
-		int[][] arr;
+		int[][] arr = new int[5][15];
 		String str = "";
-		
-		arr = new int[5][15];
 		int n;
 		
 		for(int i = 0; i < 5; i++) {

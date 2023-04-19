@@ -52,7 +52,6 @@ public class P10845 {
 			}
 		}
 		
-		
 		br.close();
 		bw.flush();
 		bw.close();

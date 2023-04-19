@@ -16,8 +16,7 @@ public class P10811 {
 		int M = Integer.parseInt(str.nextToken());
 		
 		int[] arr = new int[N];
-		int i = 0, j = 0, temp = 0;;
-		
+		int i = 0, j = 0, temp = 0;
 		for(int k = 0; k < N; k++) {
 			arr[k] = k+1;
 		}

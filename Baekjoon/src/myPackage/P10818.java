@@ -17,6 +17,7 @@ public class P10818 {
 		
 		for(int i = 0; i < n; i++) {
 			a = Integer.parseInt(arr.nextToken());
+			
 			if(i == 0) min = max = a;
 			if(a < min) min = a;
 			if(a > max) max = a;

@@ -18,7 +18,6 @@ public class P10813 {
 		int[] arr = new int[N];
 		int temp = 0, i = 0, j = 0;
 		
-		
 		for(int k = 0; k < N; k++) {
 			arr[k] = k + 1;
 		}

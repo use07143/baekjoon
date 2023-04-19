@@ -12,6 +12,7 @@ public class P10810 {
 		
 		StringTokenizer str;
 		str = new StringTokenizer(br.readLine());
+		
 		int N = Integer.parseInt(str.nextToken());
 		int M = Integer.parseInt(str.nextToken());
 		

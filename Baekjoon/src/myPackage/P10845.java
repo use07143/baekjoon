@@ -12,13 +12,12 @@ public class P10845 {
 		
 		int n = Integer.parseInt(br.readLine());
 		int[] stack = new int[n]; // stack
-		String imp;
 		int num;
 		int front = -1, back = -1;
 		
 		for(int i = 0; i < n; i++) {
 			StringTokenizer st = new StringTokenizer(br.readLine());
-			imp = st.nextToken();
+			String imp = st.nextToken();
 			if(imp.equals("push")) { // push
 				num = Integer.parseInt(st.nextToken());
 				back++;

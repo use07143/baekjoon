@@ -31,6 +31,7 @@ public class P10812 {
 			k = Integer.parseInt(str.nextToken());
 			
 			temp = new int[j-i+1];
+			
 			for(int m = 0; m < j-k+1; m++) {
 				temp[m] = arr[k-1+m];
 			}

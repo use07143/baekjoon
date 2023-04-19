@@ -19,8 +19,7 @@ public class P10871 {
 		
 		for(int i = 0; i < n; i++) {
 			a = Integer.parseInt(arr_st.nextToken());
-			if(a < k)
-				bw.write(a + " ");
+			if(a < k) bw.write(a + " ");
 		}
 		
 		br.close();

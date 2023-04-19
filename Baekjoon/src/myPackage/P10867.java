@@ -20,7 +20,6 @@ public class P10867 {
 		}
 		
 		Arrays.sort(arr);
-		
 		bw.write(arr[0] + " ");
 		
 		for(int i = 1; i < n; i++) {

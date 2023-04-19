@@ -9,6 +9,7 @@ public class P10951 {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+		
 		String str = "";
 		
 		while(((str = br.readLine()) != null) && (!str.isEmpty())) {

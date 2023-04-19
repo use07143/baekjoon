@@ -6,15 +6,12 @@ public class P10950 {
 	public static void main(String[] args) {
 		
 		int n;
-		
 		int a, b;
-		
-		int[] sum = null;
 		
 		Scanner keyboard = new Scanner(System.in);
 		n = keyboard.nextInt();
 		
-		sum = new int[n];
+		int[] sum = new int[n];
 		
 		for(int i = 0; i < n; i++) {
 			a = keyboard.nextInt();

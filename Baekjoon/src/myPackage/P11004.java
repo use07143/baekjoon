@@ -17,6 +17,7 @@ public class P11004 {
 		long[] arr = new long[n];
 		
 		st = new StringTokenizer(br.readLine());
+		
 		for(int i = 0; i < n; i++) {
 			arr[i] = Long.parseLong(st.nextToken());
 		}

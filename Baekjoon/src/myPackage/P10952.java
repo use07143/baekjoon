@@ -18,7 +18,6 @@ public class P10952 {
 			sum = Integer.parseInt(st.nextToken()) + Integer.parseInt(st.nextToken());
 			
 			if(sum == 0) break;
-			
 			bw.write(sum + "\n");
 		}
 		

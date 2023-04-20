@@ -19,10 +19,12 @@ public class P10984 {
 			int N = Integer.parseInt(br.readLine());
 			count = 0;
 			sum = 0;
+			
 			for(int j = 0; j < N; j++) {
 				st = new StringTokenizer(br.readLine());
 				c = Integer.parseInt(st.nextToken());
 				g = Float.parseFloat(st.nextToken());
+				
 				sum += (c * g);
 				count += c;
 			}

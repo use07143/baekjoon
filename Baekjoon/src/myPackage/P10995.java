@@ -13,6 +13,7 @@ public class P10995 {
 		
 		for(int i = 0; i < n; i++) {
 			if(i % 2 == 1) bw.write(" ");
+			
 			for(int j = 0; j < n; j++) {
 				bw.write("* ");
 			}

@@ -11,7 +11,6 @@ public class P10988 {
 		
 		String str = br.readLine();
 		int n = str.length();
-		
 		int f = 1;
 		
 		for(int i = 0; i < (n/2); i++) {

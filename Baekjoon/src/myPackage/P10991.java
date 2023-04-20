@@ -15,9 +15,11 @@ public class P10991 {
 			for(int j = 0; j < n-i; j++) {
 				bw.write(" ");
 			}
+			
 			for(int j = 0; j < i; j++) {
 				bw.write("* ");
 			}
+			
 			bw.newLine();
 		}
 		

@@ -16,6 +16,7 @@ public class P10953 {
 		
 		for(int i = 0; i < n; i++) {
 			st = new StringTokenizer(br.readLine(), ",");
+			
 			a = Integer.parseInt(st.nextToken());
 			b = Integer.parseInt(st.nextToken());
 			

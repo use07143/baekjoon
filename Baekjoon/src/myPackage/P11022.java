@@ -20,7 +20,6 @@ public class P11022 {
 			b = Integer.parseInt(st.nextToken());
 			
 			bw.write("Case #" + i + ": " + a + " + " + b + " = " + (a+b) + "\n");
-			
 		}
 		
 		br.close();

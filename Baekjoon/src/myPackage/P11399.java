@@ -27,7 +27,6 @@ public class P11399 {
 			sum += (arr[i] + temp);
 			temp += arr[i];
 		}
-		
 		bw.write(sum + "");
 		
 		br.close();

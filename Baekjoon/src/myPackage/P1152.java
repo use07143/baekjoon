@@ -11,7 +11,6 @@ public class P1152 {
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 	
 		StringTokenizer st = new StringTokenizer(br.readLine());
-		
 		int n = st.countTokens();
 		
 		bw.write(n + "\n");

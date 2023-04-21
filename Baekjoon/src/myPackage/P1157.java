@@ -39,7 +39,6 @@ public class P1157 {
 			if((temp == count) && (str.length() != 1)) t = '?';
 			else if(temp > count) t = arr[i];
 		}
-		
 		bw.write(t);
 		
 		br.close();

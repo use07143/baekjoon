@@ -29,7 +29,6 @@ public class P1157_1 {
 				ch = '?';
 			}
 		}
-		
 		bw.write(ch);
 		
 		br.close();

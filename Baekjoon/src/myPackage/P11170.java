@@ -20,6 +20,7 @@ public class P11170 {
 			a = Integer.parseInt(st.nextToken());
 			b = Integer.parseInt(st.nextToken());
 			cnt = 0;
+			
 			for(int j = a; j <= b; j++) {
 				temp = j;
 				if(temp == 0) cnt++;

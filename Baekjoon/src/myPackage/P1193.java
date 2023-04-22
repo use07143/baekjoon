@@ -21,6 +21,7 @@ public class P1193 {
 		}
 		
 		int[] arr = new int[cnt+1];
+		
 		for(int i = 1; i <= cnt; i++) {
 			arr[i] = i;
 		}

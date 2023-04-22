@@ -35,7 +35,6 @@ public class P11866 {
 			arr[now] = 0;
 			count++;
 		}
-		
 		bw.write(">");
 		
 		br.close();

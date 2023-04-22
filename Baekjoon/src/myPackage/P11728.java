@@ -21,7 +21,9 @@ public class P11728{
 		for(int i = 0; i < N; i++) {
 			arr[i] = Integer.parseInt(st.nextToken());
 		}
+		
 		st = new StringTokenizer(br.readLine());
+		
 		for(int i = N; i < N+M; i++) {
 			arr[i] = Integer.parseInt(st.nextToken());
 		}

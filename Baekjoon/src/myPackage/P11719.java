@@ -10,7 +10,6 @@ public class P11719 {
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		
 		String str ;
-		
 		while((str = br.readLine()) != null) {			
 			bw.write(str + "\n");
 		}

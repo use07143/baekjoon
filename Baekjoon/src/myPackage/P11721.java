@@ -31,7 +31,6 @@ public class P11721 {
 				cnt = 0;
 			}
 		}
-		
 		bw.write(sb.toString());
 		
 		br.close();

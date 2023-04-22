@@ -10,7 +10,6 @@ public class P11718 {
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 	
 		String input = "";
-		
 		while(((input = br.readLine())!=null)&&(!input.isEmpty())) {
 			bw.write(input+"\n");
 		}

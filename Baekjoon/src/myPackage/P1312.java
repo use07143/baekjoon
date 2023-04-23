@@ -16,7 +16,6 @@ public class P1312 {
 		int N = Integer.parseInt(st.nextToken());
 		
 		int res = A % B;
-		
 		for(int i = 1; i < N; i++) {
 			res *= 10;
 			res %= B;

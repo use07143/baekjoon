@@ -25,6 +25,7 @@ public class P1316 {
 					if(str.lastIndexOf(str.charAt(j)) != j) v = 0;
 				}
 			}
+			
 			if(v == 1) count++;
 			v = 1;
 		}

@@ -27,6 +27,7 @@ public class P1264 {
 					break;
 				}
 			}
+			
 			bw.write(cnt + "\n");
 		}
 		

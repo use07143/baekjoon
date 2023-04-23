@@ -16,6 +16,7 @@ public class P13241 {
 		st = new StringTokenizer(br.readLine());
 		a = Integer.parseInt(st.nextToken());
 		b = Integer.parseInt(st.nextToken());
+		
 		bw.write(LCD(a,b) + "");
 		
 		br.close();

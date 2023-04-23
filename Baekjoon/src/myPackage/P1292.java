@@ -23,6 +23,7 @@ public class P1292 {
 				i++;
 				if(i == m) break;
 			}
+			
 			num++;
 		}
 		

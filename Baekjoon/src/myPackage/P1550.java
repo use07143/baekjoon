@@ -13,6 +13,7 @@ public class P1550 {
 		int i = 0, dec = 0;
 		
 		while(i < st.length()) {
+			
 			switch(st.charAt(st.length() - i-1)) {
 			case 'A':
 				dec += (10 * Math.pow(16, i));

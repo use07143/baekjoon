@@ -13,7 +13,6 @@ public class P15552 {
 		int n = Integer.parseInt(br.readLine());
 		
 		StringTokenizer st;
-		
 		for(int i = 0; i < n; i++) {
 			st = new StringTokenizer(br.readLine());
 			bw.write(Integer.parseInt(st.nextToken()) + Integer.parseInt(st.nextToken()) + "\n");

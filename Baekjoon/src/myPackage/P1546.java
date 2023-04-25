@@ -26,7 +26,6 @@ public class P1546 {
 			sc = ((double)arr[i] / (double)max) * 100.0;
 			sum += sc;
 		}
-		
 		bw.write(sum/n + "\n");
 		
 		br.close();

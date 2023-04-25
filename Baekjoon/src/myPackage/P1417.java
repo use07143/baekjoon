@@ -33,6 +33,7 @@ public class P1417 {
 				Arrays.sort(arr);
 				if(arr[n-1] < vote) break;
 			}
+			
 			bw.write(cnt + "");
 		}
 		

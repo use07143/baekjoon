@@ -15,7 +15,6 @@ public class P14490 {
 		int b = Integer.parseInt(st.nextToken());
 		
 		int lcd = LCD(Math.min(a, b), Math.max(a, b));
-		
 		bw.write(a/lcd + ":" +b/lcd);
 		
 		bw.flush();

@@ -11,7 +11,6 @@ public class P15727 {
 		
 		int n = Integer.parseInt(br.readLine());
 		n -= 1;
-		
 		bw.write(n/5 + 1 + "");
 		
 		br.close();

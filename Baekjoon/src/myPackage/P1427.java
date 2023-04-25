@@ -13,7 +13,6 @@ public class P1427 {
 		String str = br.readLine();
 		
 		int[] arr = new int[str.length()];
-		
 		for(int i = 0; i < str.length(); i++) {
 			arr[i] = Integer.parseInt(String.valueOf(str.charAt(i)));
 		}

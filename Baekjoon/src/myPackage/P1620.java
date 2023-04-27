@@ -35,7 +35,6 @@ public class P1620 {
 			}
 		}
 		
-		
 		bw.write(ans.toString());
 		
 		br.close();

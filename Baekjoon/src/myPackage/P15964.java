@@ -12,7 +12,6 @@ public class P15964 {
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		
 		StringTokenizer st = new StringTokenizer(br.readLine());
-		
 		BigInteger A = new BigInteger(st.nextToken());
 		BigInteger B = new BigInteger(st.nextToken());
 		

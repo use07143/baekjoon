@@ -13,10 +13,12 @@ public class P1735 {
 		StringTokenizer st;
 		
 		st = new StringTokenizer(br.readLine());
+		
 		int n1 = Integer.parseInt(st.nextToken());
 		int m1 = Integer.parseInt(st.nextToken());
 		
 		st = new StringTokenizer(br.readLine());
+		
 		int n2 = Integer.parseInt(st.nextToken());
 		int m2 = Integer.parseInt(st.nextToken());
 		

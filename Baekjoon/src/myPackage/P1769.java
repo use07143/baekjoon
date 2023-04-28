@@ -24,6 +24,7 @@ public class P1769 {
 		}
 		
 		bw.write(count + "\n");
+		
 		if(Integer.parseInt(String.valueOf(x)) % 3 == 0) bw.write("YES");
 		else bw.write("NO");
 		

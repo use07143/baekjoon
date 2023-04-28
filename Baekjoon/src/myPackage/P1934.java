@@ -12,6 +12,7 @@ public class P1934 {
 		
 		int n = Integer.parseInt(br.readLine());
 		StringTokenizer st;
+		
 		int a, b;
 		
 		for(int i = 0; i < n; i++) {

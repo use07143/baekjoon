@@ -21,7 +21,6 @@ public class P1924 {
 				day += 30;
 			} else day += 28;
 		}
-		
 		day %= 7;
 		
 		switch(day) {

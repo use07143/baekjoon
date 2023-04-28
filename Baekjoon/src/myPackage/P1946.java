@@ -15,10 +15,12 @@ public class P1946 {
 			int N = Integer.parseInt(br.readLine()); // number of person
 			int[] grade = new int[N+1];
 			int cnt = 1; // pass
+			
 			for(int j = 0; j < N; j++) {
 				StringTokenizer st = new StringTokenizer(br.readLine());
 				grade[Integer.parseInt(st.nextToken())] = Integer.parseInt(st.nextToken()); // index - doc, value - interview
 			}
+			
 			int min = grade[1];
 			for(int j = 2; j <=N; j++) {
 				if(grade[j] < min) {

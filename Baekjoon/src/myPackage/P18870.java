@@ -26,6 +26,7 @@ public class P18870 {
 		
 		int cnt = 0;
 		HashMap<Integer, Integer> map = new HashMap<>();
+		
 		for(int i = 0; i < n; i++) {
 			if(!map.containsKey(sort[i])) {
 				map.put(sort[i], cnt++);

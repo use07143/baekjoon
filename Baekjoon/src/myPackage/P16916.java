@@ -43,6 +43,7 @@ public class P16916 {
 	}
 	
 	static int[] makeTable(String str) {
+		
 		int n = str.length();
 		int[] table = new int[n];
 			

@@ -32,7 +32,6 @@ public class P1874 {
 				sb.append("+\n");
 			}
 			
-			
 			if(k == arr[top]) {
 				arr[top] = 0;
 				top--;

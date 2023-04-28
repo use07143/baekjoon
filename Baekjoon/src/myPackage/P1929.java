@@ -23,6 +23,7 @@ public class P1929 {
 		for(int i = 2; i <= N; i++) {
 			prime[i] = i;
 		}
+		
 		for(int i = 2; i <= N; i++) {
 			if(prime[i] == 0) continue;
 			for(int j = i + i; j <= N; j +=i ) {

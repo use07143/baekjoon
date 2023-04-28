@@ -20,7 +20,6 @@ public class P17869 {
 	}
 	
 	public static int SCS(long n, int cnt) {
-		
 		if(n == 1) return cnt;
 		
 		if(n % 2 == 0) {

@@ -29,7 +29,7 @@ public class P1978 {
 				count++;
 				continue; 
 			}
-			
+
 			for(int j = 2; j < num; j++) {
 				if(num % j == 0) {
 					pf = 0;
@@ -39,7 +39,6 @@ public class P1978 {
 			
 			if(pf == 1) count++;
 		}
-		
 		bw.write(count + "");
 		
 		br.close();

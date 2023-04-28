@@ -15,7 +15,6 @@ public class P1977 {
 		int pow = (int) Math.sqrt(M);
 		int[] arr = new int[pow];
 		
-		
 		for(int i = 0, j = 1; i < pow; i++, j++) { 
 			arr[i] = (int) Math.pow(j, 2);
 		}

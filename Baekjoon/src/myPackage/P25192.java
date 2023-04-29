@@ -23,7 +23,6 @@ public class P25192 {
 				list.clear();
 				continue;
 			}
-			
 			list.add(str);
 		}
 		

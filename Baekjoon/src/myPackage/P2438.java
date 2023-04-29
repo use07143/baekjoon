@@ -14,6 +14,7 @@ public class P2438 {
 			for(int j = 0; j < i; j++) {
 				bw.write("*");
 			}
+			
 			bw.newLine();
 		}
 		

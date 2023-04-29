@@ -20,6 +20,7 @@ public class P2522 {
 			}
 			bw.newLine();
 		}
+		
 		for(int i = 1; i < n; i++) {
 			for(int j = 0; j < i; j++) {
 				bw.write(" ");

@@ -26,6 +26,7 @@ public class P2167 {
 		
 		int a, b, c, d;
 		int sum;
+		
 		for(int k = 0; k < t; k++) {
 			sum = 0;
 			st = new StringTokenizer(br.readLine());

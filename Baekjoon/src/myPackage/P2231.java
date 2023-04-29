@@ -19,6 +19,7 @@ public class P2231 {
 				M /= 10;
 			}
 			sum += i;
+			
 			if(sum == N) {
 				System.out.print(i);
 				return;

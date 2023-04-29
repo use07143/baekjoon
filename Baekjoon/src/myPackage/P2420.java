@@ -12,7 +12,6 @@ public class P2420 {
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		
 		StringTokenizer st = new StringTokenizer(br.readLine());
-		
 		BigInteger N = new BigInteger(st.nextToken());
 		BigInteger M = new BigInteger(st.nextToken());
 		

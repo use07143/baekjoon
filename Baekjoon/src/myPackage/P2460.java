@@ -10,12 +10,10 @@ public class P2460 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		
-		StringTokenizer st;
 		int num = 0;
 		int max = 0;
-		
 		for(int i = 0; i < 10; i++) {
-			st = new StringTokenizer(br.readLine());
+			StringTokenizer st = new StringTokenizer(br.readLine());
 			num -= Integer.parseInt(st.nextToken());
 			num += Integer.parseInt(st.nextToken());
 			if(num > max) max = num;

@@ -13,11 +13,11 @@ public class P25206 {
 		int count = 0;
 		double credit = 0.0, sum = 0.0, grade_sc = 0.0;
 		StringTokenizer str;
-		String sub, grade;
+		String grade;
 		
 		for(int i = 0; i < 20; i ++) {
 			str = new StringTokenizer(br.readLine());
-			sub = str.nextToken();
+			grade = str.nextToken();
 			credit = Float.parseFloat(str.nextToken());
 			grade = str.nextToken();
 			

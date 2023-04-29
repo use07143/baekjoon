@@ -21,6 +21,7 @@ public class P2506 {
 				sum += (1 + temp++);
 			} else temp = 0;
 		}
+		
 		bw.write(sum + "");
 		
 		br.close();

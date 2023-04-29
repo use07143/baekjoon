@@ -18,7 +18,7 @@ public class P2475 {
 			sum += Math.pow(num, 2);
 		}
 		
-		bw.write(sum%10 + "");
+		bw.write(sum % 10 + "");
 		
 		br.close();
 		bw.flush();

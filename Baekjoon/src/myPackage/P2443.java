@@ -18,6 +18,7 @@ public class P2443 {
 			for(int j = 0; j < 2*i - 1; j++) {
 				bw.write("*");
 			}
+			
 			bw.newLine();
 		}
 		

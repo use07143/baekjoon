@@ -26,7 +26,6 @@ public class P2485 {
 		
 		bw.write(count + "");
 		
-		
 		br.close();
 		bw.flush();
 		bw.close();

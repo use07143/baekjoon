@@ -20,6 +20,7 @@ public class P2444 {
 			}
 			bw.newLine();
 		}
+		
 		for(int i = n-1; i > 0; i--) {
 			for(int j = i; j < n; j++) {
 				bw.write(" ");

@@ -19,7 +19,6 @@ public class P2562 {
 				count = i+1;
 			}
 		}
-		
 		bw.write(max+"\n"+count);
 		
 		br.close();

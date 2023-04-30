@@ -10,6 +10,7 @@ public class P2839 {
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
 		int n = Integer.parseInt(br.readLine());
+		
 		int min = Integer.MAX_VALUE;
 		
 		for(int x = 0; x <= 1000; x++) {

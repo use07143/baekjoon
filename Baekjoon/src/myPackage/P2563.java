@@ -23,6 +23,7 @@ public class P2563 {
 		
 		for(int i = 0; i < N; i++) {
 			st = new StringTokenizer(br.readLine());
+			
 			x = Integer.parseInt(st.nextToken());
 			y = Integer.parseInt(st.nextToken());
 			

@@ -36,7 +36,6 @@ public class P2566 {
 				}
 			}
 		}
-		
 		bw.write(max + "\n" + y + " " + x);
 
 		br.close();

@@ -17,6 +17,7 @@ public class P26069 {
 		
 		for(int i = 0; i < n; i++) {
 			StringTokenizer st = new StringTokenizer(br.readLine());
+			
 			str1 = st.nextToken();
 			str2 = st.nextToken();
 			

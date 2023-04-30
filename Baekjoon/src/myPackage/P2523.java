@@ -10,7 +10,6 @@ public class P2523 {
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		
 		int n = Integer.parseInt(br.readLine());
-		
 		for(int i = 0; i < n; i++) {
 			for(int j = 0; j <= i; j++) {
 				bw.write("*");

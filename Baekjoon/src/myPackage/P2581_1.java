@@ -17,6 +17,7 @@ public class P2581_1 {
 		int M = Integer.parseInt(br.readLine());
 		
 		int sum = 0, min = 0;
+		
 		int[] arr = new int[M+1];
 		
 		for(int i = 2; i <= M; i++) {

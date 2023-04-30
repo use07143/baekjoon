@@ -33,7 +33,6 @@ public class P2798 {
 				}
 			}
 		}
-		
 		bw.write(max + "");
 		
 		br.close();

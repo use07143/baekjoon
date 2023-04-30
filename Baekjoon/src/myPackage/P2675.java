@@ -26,6 +26,7 @@ public class P2675 {
 				}
 				len++;
 			}
+			
 			bw.newLine();
 		}
 		

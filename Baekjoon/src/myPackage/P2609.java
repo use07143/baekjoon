@@ -11,6 +11,7 @@ public class P2609 {
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		
 		StringTokenizer st = new StringTokenizer(br.readLine());
+		
 		int n1 = Integer.parseInt(st.nextToken());
 		int n2 = Integer.parseInt(st.nextToken());
 		

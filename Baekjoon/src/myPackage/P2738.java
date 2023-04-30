@@ -40,6 +40,7 @@ public class P2738 {
 				sum = arr1[i][j] + arr2[i][j];
 				bw.write(sum + " ");
 			}
+			
 			bw.newLine();
 		}
 		

@@ -19,6 +19,7 @@ public class P2581 {
 		int sum = 0, min = Integer.MAX_VALUE, prime;
 		
 		for(int i = N; i <= M; i++) {
+			
 			prime = 1;
 			
 			if(i == 1) continue;

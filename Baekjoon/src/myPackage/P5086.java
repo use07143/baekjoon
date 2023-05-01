@@ -15,10 +15,9 @@ public class P5086 {
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		
 		int a, b;
-		StringTokenizer str;
 		
 		while(true) {
-			str = new StringTokenizer(br.readLine());
+			StringTokenizer str = new StringTokenizer(br.readLine());
 			a = Integer.parseInt(str.nextToken());
 			b = Integer.parseInt(str.nextToken());
 			

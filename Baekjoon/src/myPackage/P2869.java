@@ -16,7 +16,6 @@ public class P2869 {
 		int V = Integer.parseInt(st.nextToken());
 		
 		int count = (V-B-1) / (A-B)+1;
-		
 		bw.write(count + "");
 		
 		br.close();

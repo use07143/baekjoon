@@ -15,6 +15,7 @@ public class P2914 {
 		int b = Integer.parseInt(st.nextToken());
 		
 		int n = a * (b - 1) + 1;
+		
 		bw.write(n + "");
 		
 		br.close();

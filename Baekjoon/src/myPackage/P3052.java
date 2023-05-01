@@ -17,7 +17,6 @@ public class P3052 {
 		}
 		
 		int[] arr_f = Arrays.stream(arr).distinct().toArray();
-		
 		bw.write(arr_f.length + "\n");
 		
 		br.close();

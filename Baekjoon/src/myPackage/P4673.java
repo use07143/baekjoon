@@ -21,6 +21,7 @@ public class P4673 {
 		for(int i = 1; i < n; i++) {
 			sum = i;
 			int temp = i;
+			
 			while(temp != 0) {
 				sum += (temp % 10);
 				temp /= 10;

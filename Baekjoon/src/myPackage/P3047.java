@@ -17,7 +17,6 @@ public class P3047 {
 		for(int i = 0; i < 3; i++) {
 			arr[i] = Integer.parseInt(st.nextToken());
 		}
-		
 		Arrays.sort(arr);
 		
 		String str = br.readLine();

@@ -10,7 +10,6 @@ public class P3053 {
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		
 		int r = Integer.parseInt(br.readLine());
-		
 		double u = Math.pow(r, 2) * Math.PI;
 		double t = Math.pow(r, 2) * 2;
 		

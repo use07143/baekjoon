@@ -12,7 +12,6 @@ public class P2903 {
 		int n = Integer.parseInt(br.readLine());
 		
 		int square = (int) Math.pow(2, n);
-
 		bw.write((int)Math.pow(square + 1, 2) +"");
 		
 		bw.flush();

@@ -17,7 +17,6 @@ public class P2935 {
 		if(str.charAt(0) == '*') bw.write(n1.multiply(n2) + "");
 		else if(str.charAt(0) == '+') bw.write(n1.add(n2) + "");
 		
-		
 		br.close();
 		bw.flush();
 		bw.close();

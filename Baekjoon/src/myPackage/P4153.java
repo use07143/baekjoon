@@ -21,7 +21,6 @@ public class P4153 {
 			}
 			
 			if(arr[0] == 0 && arr[1] == 0 && arr[2] == 0) break;
-			
 			Arrays.sort(arr);
 			
 			if(Math.sqrt(Math.pow(arr[0], 2) + Math.pow(arr[1], 2)) == arr[2]) bw.write("right\n");

@@ -14,6 +14,7 @@ public class P2941 {
 		int n = 0, count = 0;
 		
 		while(n < len) {
+			
 			switch(str.charAt(n)) {
 			case 'c':
 				if((n < len-1) && ((str.charAt(n+1) == '=') || (str.charAt(n+1) == '-'))) {

@@ -19,6 +19,7 @@ public class P4344 {
 		for(int i = 0; i < C; i++) {
 			sum = 0.0;
 			count = 0;
+			
 			str = new StringTokenizer(br.readLine());
 			n = Integer.parseInt(str.nextToken());
 			

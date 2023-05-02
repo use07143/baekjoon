@@ -47,7 +47,6 @@ public class P5622 {
 				break;
 			}
 		}
-		 
 		System.out.println(time);
 		
 		br.close();

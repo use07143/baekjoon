@@ -26,6 +26,7 @@ public class P5355 {
 				else if(str.charAt(0) == '%') num += 5;
 				else if(str.charAt(0) == '#') num -= 7;
 			}
+			
 			bw.write(String.format("%.2f", num) + "\n");
 		}
 		

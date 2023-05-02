@@ -19,6 +19,7 @@ public class P5347 {
 			a = Integer.parseInt(st.nextToken());
 			b = Integer.parseInt(st.nextToken());
 			long lcd = (long) a * b / GCD(a,b);
+			
 			bw.write(lcd + "\n");
 		}
 		

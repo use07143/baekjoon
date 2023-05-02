@@ -17,6 +17,7 @@ public class P9012 {
 			String str = br.readLine();
 			
 			for(int j = 0; j < str.length(); j++) {
+				
 				if(str.charAt(j) == '(') par ++;
 				else par--;
 				

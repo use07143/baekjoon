@@ -21,7 +21,6 @@ public class P5597_1 {
 			if(arr[i-1] == 0) bw.write(i + "\n");
 		}
 
-		
 		br.close();
 		bw.flush();
 		bw.close();

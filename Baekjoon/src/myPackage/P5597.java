@@ -17,7 +17,6 @@ public class P5597 {
 		for(int i = 0; i < 28; i++) {
 			arr[i] = Integer.parseInt(br.readLine());
 		}
-
 		
 		for(int i = 1; i <= 30; i++) {
 			boolean tf = Arrays.stream(arr)
@@ -31,11 +30,9 @@ public class P5597 {
 			
 		}
 		
-		
 		if (a < b) bw.write(a + "\n" + b);
 		else bw.write(b + "\n" + a);
 
-		
 		br.close();
 		bw.flush();
 		bw.close();

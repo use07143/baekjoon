@@ -16,6 +16,7 @@ public class P5988 {
 		
 		for(int i = 0; i < n; i++) {
 			k = new BigInteger(br.readLine());
+			
 			if(k.remainder(BigInteger.valueOf(t)).equals(BigInteger.ZERO)) bw.write("even\n");
 			else bw.write("odd\n");
 		}

@@ -22,6 +22,7 @@ public class P8958 {
 					temp++;
 				} else { temp = 0; }
 			}
+			
 			bw.write(score + "\n");
 		}
 		

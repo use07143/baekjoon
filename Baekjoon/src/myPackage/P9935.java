@@ -26,7 +26,9 @@ public class P9935 {
 						break;
 					}
 				}
-				if(same) sb.delete(sb.length() - sub.length(), sb.length());
+				if(same) {
+					sb.delete(sb.length() - sub.length(), sb.length());
+				}
 			}
 		}
 		

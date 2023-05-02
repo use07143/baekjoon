@@ -32,7 +32,9 @@ public class P9506 {
 				for(int i = 2; i < N; i++) {
 					if(N % i == 0) bw.write(" + " + i);
 				}
-			} else bw.write(N + " is NOT perfect.");
+			} else {
+				bw.write(N + " is NOT perfect.");
+			}
 			
 			bw.newLine();
 		}

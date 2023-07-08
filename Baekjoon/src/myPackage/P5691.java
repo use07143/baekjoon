@@ -17,6 +17,7 @@ public class P5691 {
 
 			System.out.println(a - (b - a));
 		}
+		
 		sc.close();
 	}
 }

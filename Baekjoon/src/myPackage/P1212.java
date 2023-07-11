@@ -13,6 +13,7 @@ public class P1212 {
 		String[] b = {"000","001","010","011","100","101","110","111"};
 				
 		for(int i=0;i<s.length();i++) {
+			
 			int a =  s.charAt(i)-'0';
 
 			sb.append(b[a]);
